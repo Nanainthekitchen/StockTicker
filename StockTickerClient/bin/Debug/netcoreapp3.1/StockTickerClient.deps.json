@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "StockTickerClient/1.0.0": {
+        "dependencies": {
+          "StockTickerService": "1.0.0"
+        },
+        "runtime": {
+          "StockTickerClient.dll": {}
+        }
+      },
+      "StockTickerService/1.0.0": {
+        "runtime": {
+          "StockTickerService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StockTickerClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StockTickerService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

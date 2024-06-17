@@ -1,0 +1,10 @@
+C:\Users\nwei\source\repos\StockTicker\StockTickerService\bin\Debug\netcoreapp3.1\StockTickerService.deps.json
+C:\Users\nwei\source\repos\StockTicker\StockTickerService\bin\Debug\netcoreapp3.1\StockTickerService.dll
+C:\Users\nwei\source\repos\StockTicker\StockTickerService\bin\Debug\netcoreapp3.1\StockTickerService.pdb
+C:\Users\nwei\source\repos\StockTicker\StockTickerService\obj\Debug\netcoreapp3.1\StockTickerService.csproj.AssemblyReference.cache
+C:\Users\nwei\source\repos\StockTicker\StockTickerService\obj\Debug\netcoreapp3.1\StockTickerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nwei\source\repos\StockTicker\StockTickerService\obj\Debug\netcoreapp3.1\StockTickerService.AssemblyInfoInputs.cache
+C:\Users\nwei\source\repos\StockTicker\StockTickerService\obj\Debug\netcoreapp3.1\StockTickerService.AssemblyInfo.cs
+C:\Users\nwei\source\repos\StockTicker\StockTickerService\obj\Debug\netcoreapp3.1\StockTickerService.csproj.CoreCompileInputs.cache
+C:\Users\nwei\source\repos\StockTicker\StockTickerService\obj\Debug\netcoreapp3.1\StockTickerService.dll
+C:\Users\nwei\source\repos\StockTicker\StockTickerService\obj\Debug\netcoreapp3.1\StockTickerService.pdb

@@ -1,0 +1,26 @@
+﻿<Window x:Class="StockTickerClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StockTickerClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="470" Width="780">
+    <Grid>
+        <ListView Name="ListViewStock" MouseDoubleClick="StockListView_MouseDoubleClick" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Ticker" DisplayMemberBinding="{Binding Ticker}" Width="120"/>
+                    <GridViewColumn Header="Price" DisplayMemberBinding="{Binding Price}" Width="120"/>
+                </GridView>
+            </ListView.View>
+            <ListView.Resources>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Style.Setters>
+                        <Setter Property="Background" Value="{Binding Background}"/>
+                    </Style.Setters>
+                </Style>
+            </ListView.Resources>
+        </ListView>
+    </Grid>
+</Window>

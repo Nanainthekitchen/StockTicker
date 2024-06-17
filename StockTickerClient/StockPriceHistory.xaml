@@ -1,0 +1,19 @@
+﻿<Window x:Class="StockTickerClient.StockPriceHistory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StockTickerClient"
+        mc:Ignorable="d"
+        Title="StockPriceHistory" Height="450" Width="800">
+    <Grid>
+        <ListView Name="PriceHistoryListView">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Date/Time" DisplayMemberBinding="{Binding date}" Width="150"/>
+                    <GridViewColumn Header="Price" DisplayMemberBinding="{Binding price}" Width="150"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
